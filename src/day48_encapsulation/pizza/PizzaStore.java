@@ -1,4 +1,4 @@
-package day48_encapsulation;
+package day48_encapsulation.pizza;
 
 public class PizzaStore {
     public static void main(String[] args) {
@@ -15,6 +15,8 @@ public class PizzaStore {
         second.setNumberOfTopping(1);
 
         System.out.println(second);
+
+
 
 
 

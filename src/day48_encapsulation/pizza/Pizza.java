@@ -1,4 +1,4 @@
-package day48_encapsulation;
+package day48_encapsulation.pizza;
 
 public class Pizza {
 
@@ -33,7 +33,7 @@ public class Pizza {
     }
 
     public double calculatePrice(){
-        if (size == null){
+        if (size == null) {
             return -1;
         }
 
