@@ -12,12 +12,13 @@ public class BestBuy {
         this.location = location;
     }
 
-    public void openStore(){
+    public void openStore() {
         System.out.println("Opening the " + location);
     }
-    public static void reStock(){
+
+    public static void reStock() {
         numberOfComputer += 20;
     }
 
-    }
+}
 
